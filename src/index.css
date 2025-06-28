@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+   themes: light --default;
+ }
+
+ li .active{
+  background: red;
+  color: white;
+  font-weight: 700;
+ }
+ li .active:hover{
+  background: green;
+ }

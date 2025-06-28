@@ -1,0 +1,45 @@
+ [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "A full-featured e-commerce solution with product listings, cart functionality, and secure checkout process.",
+      "image": "profile.png",
+      "features": [
+        "User authentication",
+        "Product search & filtering",
+        "Payment integration",
+        "Admin dashboard"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "Stripe"
+      ],
+      "liveLink": "https://example-ecommerce.com",
+      "githubLink": "https://github.com/yourusername/ecommerce-platform",
+      "detailsLink": "/projects/ecommerce-platform"
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates and team functionality.",
+      "image": "profile.png",
+      "features": [
+        "Real-time collaboration",
+        "Drag-and-drop interface",
+        "Task prioritization",
+        "Progress tracking"
+      ],
+      "technologies": [
+        "React",
+        "Firebase",
+        "Material UI",
+        "Redux"
+      ],
+      "liveLink": "https://task-app.example.com",
+      "githubLink": "https://github.com/yourusername/task-management-app",
+      "detailsLink": "/projects/task-app"
+    }
+  ]
