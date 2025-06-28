@@ -25,7 +25,6 @@ const ProjectsSection = () => {
           </p>
         </div>
 
-
         <div className="space-y-28">
           {projects.map((project, index) => (
             <div 
