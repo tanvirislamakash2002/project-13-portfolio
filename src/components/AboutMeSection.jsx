@@ -1,8 +1,14 @@
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import { FaUserTie, FaCode, FaLightbulb } from 'react-icons/fa';
 
 const AboutMeSection = () => {
+        useEffect(() => {
+      Aos.init();
+    }, []);
     return (
-        <section className="pt-20 bg-base-100">
+        <section id='about-me' className="pt-20 bg-base-100">
       <div className="container mx-auto px-6 md:px-12">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -10,11 +16,11 @@ const AboutMeSection = () => {
           </h2>
           <div className="w-20 h-1 bg-blue-500 mx-auto"></div>
         </div>
-        
+
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Image Section */}
-          <div className="lg:w-5/12 flex justify-center">
-            <div className="relative w-64 h-64 md:w-80 md:h-80">
+          <div  data-aos="fade-up" className="lg:w-5/12 flex justify-center">
+            <div className="relative  h-80 lg:h-80">
               <div className="absolute inset-0 bg-blue-500 rounded-lg opacity-10 -z-10"></div>
               <div className="absolute -inset-4 border-2 border-blue-500 rounded-lg opacity-30"></div>
               <img 

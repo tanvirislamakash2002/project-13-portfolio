@@ -18,7 +18,7 @@ const SkillsSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-base-100">
+    <section id='skills' className="py-20 bg-base-100">
         
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-16">
@@ -53,16 +53,7 @@ const SkillsSection = () => {
           <div className="space-y-4">
             <div>
               <div className="flex justify-between mb-1">
-                <span>React & Next.js</span>
-                <span>90%</span>
-              </div>
-              <div className="w-full bg-gray-200 rounded-full h-2.5">
-                <div className="bg-blue-500 h-2.5 rounded-full" style={{ width: '90%' }}></div>
-              </div>
-            </div>
-            <div>
-              <div className="flex justify-between mb-1">
-                <span>Node.js & Express</span>
+                <span>React</span>
                 <span>85%</span>
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2.5">
@@ -71,20 +62,29 @@ const SkillsSection = () => {
             </div>
             <div>
               <div className="flex justify-between mb-1">
-                <span>Tailwind & DaisyUI</span>
-                <span>95%</span>
+                <span>Node.js & Express</span>
+                <span>80%</span>
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2.5">
-                <div className="bg-blue-500 h-2.5 rounded-full" style={{ width: '95%' }}></div>
+                <div className="bg-blue-500 h-2.5 rounded-full" style={{ width: '80%' }}></div>
               </div>
             </div>
             <div>
               <div className="flex justify-between mb-1">
-                <span>PHP</span>
-                <span>75%</span>
+                <span>Tailwind & DaisyUI</span>
+                <span>95%</span>
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2.5">
-                <div className="bg-blue-500 h-2.5 rounded-full" style={{ width: '75%' }}></div>
+                <div className="bg-blue-500 h-2.5 rounded-full" style={{ width: '90%' }}></div>
+              </div>
+            </div>
+            <div>
+              <div className="flex justify-between mb-1">
+                <span>Firebase</span>
+                <span>65%</span>
+              </div>
+              <div className="w-full bg-gray-200 rounded-full h-2.5">
+                <div className="bg-blue-500 h-2.5 rounded-full" style={{ width: '65%' }}></div>
               </div>
             </div>
           </div>

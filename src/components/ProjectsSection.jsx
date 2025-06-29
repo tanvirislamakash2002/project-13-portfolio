@@ -1,3 +1,5 @@
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import { useEffect, useState } from 'react';
 import { FaExternalLinkAlt, FaGithub, FaInfoCircle } from 'react-icons/fa';
 
@@ -12,8 +14,12 @@ const ProjectsSection = () => {
         })
     },[])
 
+      useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
-    <section className="pb-20 bg-base-100" id="projects">
+    <section id="project-section" className="pb-20 bg-base-100">
       <div className="container mx-auto px-6 md:px-12">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -50,9 +56,9 @@ const ProjectsSection = () => {
                 
 
                 <div className="flex flex-wrap gap-2 mb-8">
-                  {project.technologies.map((tech, i) => (
+                  {project.technologies.map((tech, index) => (
                     <span 
-                      key={i} 
+                      key={index} 
                       className="badge badge-outline border-blue-500 text-blue-500"
                     >
                       {tech}
@@ -88,7 +94,7 @@ const ProjectsSection = () => {
               </div>
               
 
-              <div className="md:w-1/2">
+              <div  data-aos={`${index % 2 === 0 ? 'fade-left' : 'fade-right'}`} className="md:w-1/2">
                 <div className="relative group">
                   <div className="absolute -inset-4 bg-blue-500 rounded-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300 -z-10"></div>
                   <img 

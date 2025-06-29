@@ -4,7 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 const HeroSection = () => {
     return (
-        <section className=" flex bg-base-100 max-w-7xl mx-auto">
+        <section id='home' className=" flex bg-base-100 max-w-7xl mx-auto">
             <div className="w-full mx-auto px-6 md:px-12 flex flex-col md:flex-row  justify-between items-center">
                 {/* content section */}
                 <div className="md:w-1/2 mb-12 md:mb-0">

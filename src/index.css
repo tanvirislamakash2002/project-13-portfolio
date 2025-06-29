@@ -3,6 +3,11 @@
    themes: light --default;
  }
 
+ html {
+  scroll-behavior: smooth;
+}
+
+
  li .active{
   background: red;
   color: white;
