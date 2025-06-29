@@ -2,7 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4">
+        <footer className="bg-neutral">
+
+        <div className="footer sm:footer-horizontal text-neutral-content items-center p-4 max-w-7xl mx-auto">
             <aside className="grid-flow-col items-center">
                 <div className="w-24"><img src="logo.png" alt="" /></div>
                 <p>Copyright © {new Date().getFullYear()} - All right reserved by tanvir islam akash</p>
@@ -42,6 +44,7 @@ const Footer = () => {
                     </svg>
                 </a>
             </nav>
+        </div>
         </footer>
     );
 };
