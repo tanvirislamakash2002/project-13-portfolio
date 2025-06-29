@@ -3,7 +3,7 @@
       "id": 1,
       "title": "Knowledge sharing Platform",
       "description": "A full-featured e-commerce solution with product listings, cart functionality, and secure checkout process.",
-      "image": "profile.png",
+      "image": "https://i.ibb.co/CZ5wdVw/screenshot-of-project-11.png",
       "features": [
         "User authentication",
         "Product search & filtering",
@@ -16,15 +16,15 @@
         "MongoDB",
         "Tailwind CSS"
       ],
-      "liveLink": "https://example-ecommerce.com",
-      "githubLink": "https://github.com/yourusername/ecommerce-platform",
+      "liveLink": "https://ph-b11-a11.web.app/",
+      "githubLink": "https://github.com/tanvirislamakash2002/project-11-client-side",
       "detailsLink": "/projects/ecommerce-platform"
     },
     {
       "id": 2,
       "title": "Roommate Finding platform",
       "description": "A collaborative task management application with real-time updates and team functionality.",
-      "image": "profile.png",
+      "image": "https://i.ibb.co/JwJvL76N/screenshot-of-project-10.png",
       "features": [
         "Real-time collaboration",
         "Drag-and-drop interface",
@@ -37,8 +37,8 @@
         "Node.js",
         "MongoDB"
       ],
-      "liveLink": "https://task-app.example.com",
-      "githubLink": "https://github.com/yourusername/task-management-app",
+      "liveLink": "https://ph-b11-a10.web.app/",
+      "githubLink": "https://github.com/tanvirislamakash2002/project-10-client-side",
       "detailsLink": "/projects/task-app"
     }
   ]

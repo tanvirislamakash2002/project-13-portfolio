@@ -9,10 +9,12 @@
 
 
  li .active{
-  background: red;
-  color: white;
+  border-bottom: 4px solid rgb(60, 137, 219);
+  color: rgb(60, 137, 219);
   font-weight: 700;
+  margin-right: 4px;
  }
  li .active:hover{
-  background: green;
+  background: rgb(17, 111, 212);
+  color: white;
  }

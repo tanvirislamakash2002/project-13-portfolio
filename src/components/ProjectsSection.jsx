@@ -100,7 +100,7 @@ const ProjectsSection = () => {
                   <img 
                     src={project.image} 
                     alt={project.title} 
-                    className="rounded-lg shadow-xl w-full h-auto border-2 border-base-200 transition-transform duration-300 group-hover:scale-[1.02]"
+                    className="rounded-lg shadow-xl w-96 h-96 border-2 border-base-200 transition-all duration-1300 group-hover:scale-[1.02] object-cover object-top hover:object-bottom"
                   />
                 </div>
               </div>

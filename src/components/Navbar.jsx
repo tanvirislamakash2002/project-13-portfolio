@@ -73,12 +73,29 @@ const Navbar = () => {
                     My Projects
                 </NavLink>
             </li>
+            <li>
+                <NavLink
+                    to="#contact-me"
+                    className={({ isActive }) => isActive ? "active" : ""}
+                    onClick={(e) => {
+                        if (window.location.pathname === '/') {
+                            e.preventDefault();
+                            const element = document.getElementById('contact-me');
+                            if (element) {
+                                element.scrollIntoView({ behavior: 'smooth' });
+                            }
+                        }
+                    }}
+                >
+                    Contact Me
+                </NavLink>
+            </li>
 
         </>
 
 
     return (
-        <div className="fixed top-0 z-50 navbar bg-base-100 max-w-7xl mx-auto">
+        <div className="fixed top-0 z-50 navbar bg-blue-100/90 max-w-7xl mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
