@@ -13,14 +13,14 @@ const ProjectsSection = () => {
     },[])
 
   return (
-    <section className="py-20 bg-base-100" id="projects">
+    <section className="pb-20 bg-base-100" id="projects">
       <div className="container mx-auto px-6 md:px-12">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             My <span className="text-blue-500">Projects</span>
           </h2>
           <div className="w-20 h-1 bg-blue-500 mx-auto"></div>
-          <p className="mt-6 text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+          <p className="mt-6 max-w-2xl mx-auto">
             Some of my recent work and personal projects
           </p>
         </div>
@@ -35,14 +35,13 @@ const ProjectsSection = () => {
               <div className="md:w-1/2">
                 <h3 className="text-2xl md:text-3xl font-bold mb-4">{project.title}</h3>
                 
-                <p className="text-gray-600 dark:text-gray-300 mb-6">
+                <p className="mb-6">
                   {project.description}
-                </p>
-                
+                </p>                
 
                 <ul className="mb-6 space-y-2">
-                  {project.features.map((feature, i) => (
-                    <li key={i} className="flex items-start">
+                  {project.features.map((feature, index) => (
+                    <li key={index} className="flex items-start">
                       <span className="text-blue-500 mr-2">✓</span>
                       <span>{feature}</span>
                     </li>
@@ -67,7 +66,7 @@ const ProjectsSection = () => {
                     href={project.liveLink} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="btn btn-primary gap-2"
+                    className="btn bg-blue-500 text-white hover:bg-white hover:border-blue-500 hover:text-blue-500 gap-2"
                   >
                     <FaExternalLinkAlt /> Live Demo
                   </a>
@@ -75,13 +74,13 @@ const ProjectsSection = () => {
                     href={project.githubLink} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="btn btn-outline gap-2"
+                    className="btn btn-outline border-blue-500 text-blue-500 hover:bg-blue-500 hover:border-blue-500 hover:text-white gap-2"
                   >
                     <FaGithub /> GitHub
                   </a>
                   <a 
                     href={project.detailsLink} 
-                    className="btn btn-ghost gap-2"
+                    className="btn gap-2 hover:bg-blue-100 border-blue-200"
                   >
                     <FaInfoCircle /> Details
                   </a>

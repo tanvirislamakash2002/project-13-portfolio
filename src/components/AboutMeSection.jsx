@@ -10,7 +10,7 @@ const AboutMeSection = () => {
           </h2>
           <div className="w-20 h-1 bg-blue-500 mx-auto"></div>
         </div>
-
+        
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Image Section */}
           <div className="lg:w-5/12 flex justify-center">
