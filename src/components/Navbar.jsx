@@ -7,15 +7,15 @@ const Navbar = () => {
         <>
             <li>
                 <NavLink
-                    to="#home"
-                    className={({ isActive }) => isActive ? "active" : ""}
+                    to="/"
+                    className={ "active" }
                     onClick={(e) => {
                         if (window.location.pathname === '/') {
                             e.preventDefault();
-                            const element = document.getElementById('home');
-                            if (element) {
-                                element.scrollIntoView({ behavior: 'smooth' });
-                            }
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
                         }
                     }}
                 >
@@ -24,8 +24,8 @@ const Navbar = () => {
             </li>
             <li>
                 <NavLink
-                    to="#about-me"
-                    className={({ isActive }) => isActive ? "active" : ""}
+                    to="/about-me"
+                    className={ "active" }
                     onClick={(e) => {
                         if (window.location.pathname === '/') {
                             e.preventDefault();
@@ -41,8 +41,8 @@ const Navbar = () => {
             </li>
             <li>
                 <NavLink
-                    to="#skills"
-                    className={({ isActive }) => isActive ? "active" : ""}
+                    to="/skills"
+                    className={ "active" }
                     onClick={(e) => {
                         if (window.location.pathname === '/') {
                             e.preventDefault();
@@ -58,8 +58,8 @@ const Navbar = () => {
             </li>
             <li>
                 <NavLink
-                    to="#project-section"
-                    className={({ isActive }) => isActive ? "active" : ""}
+                    to="/project-section"
+                    className={ "active" }
                     onClick={(e) => {
                         if (window.location.pathname === '/') {
                             e.preventDefault();
@@ -75,8 +75,8 @@ const Navbar = () => {
             </li>
             <li>
                 <NavLink
-                    to="#contact-me"
-                    className={({ isActive }) => isActive ? "active" : ""}
+                    to="/contact-me"
+                    className={ "active" }
                     onClick={(e) => {
                         if (window.location.pathname === '/') {
                             e.preventDefault();
@@ -100,7 +100,7 @@ const Navbar = () => {
                 <div className=" navbar max-w-7xl mx-auto ">
                     <div className="navbar-start">
                         <div className="dropdown">
-                            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                            <div tabIndex={0} role="button" className="btn btn-ghost hover:bg-blue-500 hover:text-white lg:hidden">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                             </div>
                             <ul

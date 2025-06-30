@@ -2,13 +2,12 @@
     {
       "id": 1,
       "title": "Knowledge sharing Platform",
-      "description": "A full-featured e-commerce solution with product listings, cart functionality, and secure checkout process.",
+      "description": "It is a knowledge shearing website where people can exchanging their knowledge. Here people can publish their knowledge as articles. they can see each others articles and gain knowledge.",
       "image": "https://i.ibb.co/CZ5wdVw/screenshot-of-project-11.png",
       "features": [
         "User authentication",
-        "Product search & filtering",
-        "Payment integration",
-        "Admin dashboard"
+        "Post and manage articles",
+        "Read others articles and give like and comment"
       ],
       "technologies": [
         "React",
@@ -18,18 +17,17 @@
       ],
       "liveLink": "https://ph-b11-a11.web.app/",
       "githubLink": "https://github.com/tanvirislamakash2002/project-11-client-side",
-      "detailsLink": "/projects/ecommerce-platform"
+      "detailsLink": "project-11"
     },
     {
       "id": 2,
       "title": "Roommate Finding platform",
-      "description": "A collaborative task management application with real-time updates and team functionality.",
+      "description": "This is a Roommate finding website where people can find their desire roommate.",
       "image": "https://i.ibb.co/JwJvL76N/screenshot-of-project-10.png",
       "features": [
-        "Real-time collaboration",
-        "Drag-and-drop interface",
-        "Task prioritization",
-        "Progress tracking"
+        "Finding Roommate",
+        "Post for finding roommate",
+        "Admin dashboard"
       ],
       "technologies": [
         "React",
@@ -39,6 +37,6 @@
       ],
       "liveLink": "https://ph-b11-a10.web.app/",
       "githubLink": "https://github.com/tanvirislamakash2002/project-10-client-side",
-      "detailsLink": "/projects/task-app"
+      "detailsLink": "project-10"
     }
   ]

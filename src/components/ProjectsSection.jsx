@@ -2,6 +2,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect, useState } from 'react';
 import { FaExternalLinkAlt, FaGithub, FaInfoCircle } from 'react-icons/fa';
+import { Link } from 'react-router';
 
 const ProjectsSection = () => {
     const [projects, setProjects] = useState([])
@@ -84,17 +85,17 @@ const ProjectsSection = () => {
                   >
                     <FaGithub /> GitHub
                   </a>
-                  <a 
-                    href={project.detailsLink} 
+                  <Link 
+                    to={`project-details/${project.detailsLink}`} 
                     className="btn gap-2 hover:bg-blue-100 border-blue-200"
                   >
                     <FaInfoCircle /> Details
-                  </a>
+                  </Link>
                 </div>
               </div>
               
 
-              <div  data-aos={`${index % 2 === 0 ? 'fade-left' : 'fade-right'}`} className="md:w-1/2">
+              <div  data-aos={`${index % 2 === 0 ? 'fade-up' : 'fade-up'}`} className="md:w-1/2">
                 <div className="relative group">
                   <div className="absolute -inset-4 bg-blue-500 rounded-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300 -z-10"></div>
                   <img 

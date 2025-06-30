@@ -38,7 +38,7 @@ const AboutMeSection = () => {
             </h3>
             
             <p className=" mb-6">
-              I'm a passionate frontend developer with 5 years of experience creating 
+              I'm a passionate frontend developer with 1 years of experience creating 
               responsive and user-friendly web applications. My expertise lies in React, 
               JavaScript, and modern CSS frameworks.
             </p>

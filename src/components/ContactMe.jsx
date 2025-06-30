@@ -4,11 +4,11 @@ import { MdEmail } from 'react-icons/md';
 
 const ContactMe = () => {
     return (
-        <section id='contact-me' className="mx-4">
+        <section id='contact-me' className="mx-4 mb-16">
             <div className={` max-w-4xl mx-auto p-8 bg-white rounded-lg shadow-md `}>
-          <h2 className="text-3xl text-center font-bold mb-12">
-            Contact <span className="text-blue-500">Me</span>
-          </h2>
+                <h2 className="text-3xl text-center font-bold mb-12">
+                    Contact <span className="text-blue-500">Me</span>
+                </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
                         <h1 className="text-2xl font-bold mb-6">Contact Me</h1>
@@ -20,7 +20,7 @@ const ContactMe = () => {
                                     <input
                                         type="text"
                                         id="firstName"
-                                        className="mt-1 block w-full border-b border-gray-300 focus:border-green-500 focus:outline-none py-2"
+                                        className="mt-1 block w-full border-b border-gray-300 focus:border-blue-500 focus:outline-none py-2"
                                     />
                                 </div>
                                 <div>
@@ -28,7 +28,7 @@ const ContactMe = () => {
                                     <input
                                         type="text"
                                         id="lastName"
-                                        className="mt-1 block w-full border-b border-gray-300 focus:border-green-500 focus:outline-none py-2"
+                                        className="mt-1 block w-full border-b border-gray-300 focus:border-blue-500 focus:outline-none py-2"
                                     />
                                 </div>
                             </div>
@@ -39,7 +39,7 @@ const ContactMe = () => {
                                     <input
                                         type="email"
                                         id="email"
-                                        className="mt-1 block w-full border-b border-gray-300 focus:border-green-500 focus:outline-none py-2"
+                                        className="mt-1 block w-full border-b border-gray-300 focus:border-blue-500 focus:outline-none py-2"
                                     />
                                 </div>
                                 <div>
@@ -47,7 +47,7 @@ const ContactMe = () => {
                                     <input
                                         type="tel"
                                         id="phone"
-                                        className="mt-1 block w-full border-b border-gray-300 focus:border-green-500 focus:outline-none py-2"
+                                        className="mt-1 block w-full border-b border-gray-300 focus:border-blue-500 focus:outline-none py-2"
                                     />
                                 </div>
                             </div>
@@ -58,12 +58,12 @@ const ContactMe = () => {
                                 <textarea
                                     id="query"
                                     rows="4"
-                                    className="mt-1 block w-full border-b border-gray-300 focus:border-green-500 focus:outline-none py-2"
+                                    className="mt-1 block w-full border-b border-gray-300 focus:border-blue-500 focus:outline-none py-2"
                                 ></textarea>
                             </div>
 
-                            <button                                
-                                className="w-full custom-bg-300 text-white py-2 px-4 rounded transition duration-200"
+                            <button
+                                className="w-full bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-white hover:text-blue-500 border-2 transition-all duration-200 cursor-pointer"
                             >
                                 Submit
                             </button>
@@ -74,7 +74,10 @@ const ContactMe = () => {
                     <div className="flex flex-col justify-between">
                         <div>
                             <p className=" mb-6">
-                                We’d love to hear from you! Whether you have questions, feedback, or need assistance, our team is here to help. Reach out via email, phone, or the contact form below, and we’ll get back to you as soon as possible. Your satisfaction is our priority—let’s connect!
+                                I'm always excited to connect with like-minded individuals, discuss new opportunities, or collaborate on innovative projects. Whether you have a question, a proposal, or just want to say hello—feel free to reach out!
+<br />
+<br />
+                                Drop me a message below, and I’ll get back to you as soon as possible. Let’s turn ideas into reality!!
                             </p>
 
                             <div className="space-y-4">

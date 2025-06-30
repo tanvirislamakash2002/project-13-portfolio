@@ -48,47 +48,6 @@ const SkillsSection = () => {
           ))}
         </div>
 
-        <div className="mt-16 max-w-4xl mx-auto px-12">
-          <h3 className="text-xl font-semibold mb-6 text-center">Proficiency Levels</h3>
-          <div className="space-y-4">
-            <div>
-              <div className="flex justify-between mb-1">
-                <span>React</span>
-                <span>85%</span>
-              </div>
-              <div className="w-full bg-gray-200 rounded-full h-2.5">
-                <div className="bg-blue-500 h-2.5 rounded-full" style={{ width: '85%' }}></div>
-              </div>
-            </div>
-            <div>
-              <div className="flex justify-between mb-1">
-                <span>Node.js & Express</span>
-                <span>80%</span>
-              </div>
-              <div className="w-full bg-gray-200 rounded-full h-2.5">
-                <div className="bg-blue-500 h-2.5 rounded-full" style={{ width: '80%' }}></div>
-              </div>
-            </div>
-            <div>
-              <div className="flex justify-between mb-1">
-                <span>Tailwind & DaisyUI</span>
-                <span>95%</span>
-              </div>
-              <div className="w-full bg-gray-200 rounded-full h-2.5">
-                <div className="bg-blue-500 h-2.5 rounded-full" style={{ width: '90%' }}></div>
-              </div>
-            </div>
-            <div>
-              <div className="flex justify-between mb-1">
-                <span>Firebase</span>
-                <span>65%</span>
-              </div>
-              <div className="w-full bg-gray-200 rounded-full h-2.5">
-                <div className="bg-blue-500 h-2.5 rounded-full" style={{ width: '65%' }}></div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
