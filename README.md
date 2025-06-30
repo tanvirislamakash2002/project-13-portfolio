@@ -1,3 +1,45 @@
+# Project name:
+Portfolio
+
+# Purpose:
+My personal website that showcase myself
+
+# Live URL:
+https://tanvir-islam-akash-11.surge.sh/
+
+
+
+# Tech Stack:
+ 1. React + Vite
+ 2. Tailwind CSS + DaisyUI
+ 3. React Router
+
+# npm packages I have used:
+### Dependencies (Production packages)
+1. @tailwindcss/vite
+2. aos
+3. tailwindcss
+4. react
+5. react-icons
+6. react-router
+
+
+
+# How to Run (Setup):
+1. Clone the repo - git clone
+1. Install packages - npm install
+2. Run Locally - npm run dev
+
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
