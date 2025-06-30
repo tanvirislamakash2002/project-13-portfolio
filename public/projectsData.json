@@ -1,7 +1,7 @@
  [
     {
       "id": 1,
-      "title": "Knowledge sharing Platform",
+      "title": "Readora, A Knowledge sharing Platform",
       "description": "It is a knowledge shearing website where people can exchanging their knowledge. Here people can publish their knowledge as articles. they can see each others articles and gain knowledge.",
       "image": "https://i.ibb.co/CZ5wdVw/screenshot-of-project-11.png",
       "features": [
@@ -21,7 +21,7 @@
     },
     {
       "id": 2,
-      "title": "Roommate Finding platform",
+      "title": "RoomEase, A Roommate Finding platform",
       "description": "This is a Roommate finding website where people can find their desire roommate.",
       "image": "https://i.ibb.co/JwJvL76N/screenshot-of-project-10.png",
       "features": [
@@ -38,5 +38,24 @@
       "liveLink": "https://ph-b11-a10.web.app/",
       "githubLink": "https://github.com/tanvirislamakash2002/project-10-client-side",
       "detailsLink": "project-10"
+    },
+        {
+      "id": 3,
+      "title": "Job Track, A Job Finding platform",
+      "description": "There is a list of company they are providing jobs. people can visit the company profile and get jobs from there.",
+      "image": "https://i.ibb.co/V0YWnqQS/screenshot-of-project-9.png",
+      "features": [
+        "A company can give job circular",
+        "People can apply for jobs"
+      ],
+      "technologies": [
+        "React",
+        "Firebase",        
+        "Node.js",
+        "MongoDB"
+      ],
+      "liveLink": "https://ph-a-9-c6b1f.web.app",
+      "githubLink": "https://github.com/tanvirislamakash2002/project-9",
+      "detailsLink": "project-9"
     }
   ]
